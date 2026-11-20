@@ -1,0 +1,21 @@
+SITE VITRINE — RÉPARE MOBILE
+
+Pages :
+- index.html : accueil et questions fréquentes
+- reparations.html : services et exemples de tarifs
+- a-propos.html : présentation à personnaliser
+- contact.html : sélecteur marque/modèle et formulaire email
+- style.css : mise en page pour ordinateur et téléphone
+- script.js : menu mobile, catalogue de modèles et envoi du formulaire
+- images/ : illustrations et photos utilisées par le site
+
+Le formulaire utilise FormSubmit pour envoyer les demandes à eddoussahmed177@gmail.com. À la première demande, FormSubmit enverra un email d’activation à cette adresse. Clique sur son lien de confirmation pour activer les notifications de demandes.
+
+La page doit être ouverte avec un serveur web ou être publiée en ligne. Elle ne peut pas envoyer le formulaire lorsqu’elle est ouverte directement comme un fichier HTML (file://).
+
+Pour recevoir une alerte sur ton téléphone, connecte ce compte Gmail sur le téléphone et active les notifications de Gmail. Vérifie aussi le dossier Courrier indésirable.
+
+Les informations du formulaire transitent par FormSubmit pour être envoyées par email. Le fournisseur indique garder les demandes 30 jours.
+Les tarifs sont des exemples à confirmer selon le coût réel des pièces et de la main-d’œuvre. Vérifie les marques prises en charge, l’adresse, les horaires, les délais et les garanties avant publication.
+
+Pour voir le site localement, démarre un serveur web dans ce dossier et ouvre l’adresse locale fournie par ce serveur.

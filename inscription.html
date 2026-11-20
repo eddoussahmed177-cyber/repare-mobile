@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Créer un compte client Répare Mobile.">
+    <title>Créer un compte | Répare Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <script src="supabase-client.js" defer></script>
+    <script src="supabase-shop.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="cart.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html"><span class="brand-icon">R</span><span>répare<span
+                    class="brand-light">mobile</span></span></a><button class="menu-toggle" aria-expanded="false"
+            aria-controls="main-nav">Menu</button>
+        <nav id="main-nav" class="main-nav" aria-label="Navigation principale"><a class="cart-nav-link"
+                href="panier.html">Panier <span data-cart-count>0</span></a><a href="index.html">Accueil</a><a
+                href="reparations.html">Réparations</a><a href="a-propos.html">À propos</a><a
+                href="contact.html">Contact</a><a href="index.html#faq">FAQ</a><a class="account-nav-link active"
+                href="connexion.html">Compte</a></nav>
+    </header>
+    <main>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span
+                aria-hidden="true">›</span><span aria-current="page">Créer un compte</span></nav>
+        <section class="auth-layout">
+            <div class="auth-card">
+                <p class="eyebrow">ESPACE CLIENT</p>
+                <h1>Créer mon compte</h1>
+                <p class="auth-intro">Créez un compte sécurisé pour envoyer vos demandes et les retrouver depuis vos
+                    appareils.</p>
+                <form id="signup-form" class="auth-form" novalidate><label for="first-name">Prénom</label><input
+                        id="first-name" autocomplete="given-name" required><label for="last-name">Nom</label><input
+                        id="last-name" autocomplete="family-name" required><label for="signup-email">Adresse
+                        email</label><input id="signup-email" type="email" autocomplete="email" required><label
+                        for="signup-password">Mot de passe</label><input id="signup-password" type="password"
+                        autocomplete="new-password" minlength="8" required><small>8 caractères minimum. Votre mot de
+                        passe est géré par Supabase et n’est pas stocké par le site.</small><label
+                        for="signup-confirm">Confirmer le mot de passe</label><input id="signup-confirm" type="password"
+                        autocomplete="new-password" required><label class="auth-check"><input id="demo-terms"
+                            type="checkbox" required><span>J’accepte l’utilisation de mes coordonnées pour le suivi de
+                            mes demandes de réparation.</span></label><button class="button" type="submit">Créer mon
+                        compte <span aria-hidden="true">↗</span></button>
+                    <p id="signup-message" class="auth-message" role="status" aria-live="polite"></p>
+                </form>
+                <p class="auth-switch">Déjà inscrit ? <a href="connexion.html">Se connecter</a></p>
+            </div>
+            <aside class="auth-note"><span class="auth-note-icon">R</span>
+                <h2>Vos réparations, au même endroit.</h2>
+                <p>Votre compte vous permet de retrouver vos demandes. Selon la configuration, Supabase peut vous
+                    envoyer un email pour confirmer votre adresse.</p>
+            </aside>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-icon">R</span><span>répare<span
+                    class="brand-light">mobile</span></span></a><p>Réparation mobile · Diagnostic et devis sur demande</p>
+        <p>© <span data-year></span> Répare Mobile</p>
+    </footer>
+</body>
+
+</html>
